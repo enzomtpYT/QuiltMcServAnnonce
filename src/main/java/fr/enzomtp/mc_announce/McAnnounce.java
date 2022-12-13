@@ -11,6 +11,8 @@ public class McAnnounce implements ModInitializer {
 
 	@Override
 	public void onInitialize(ModContainer mod) {
-		LOGGER.info("Hello Quilt world from {}!", mod.metadata().name());
+		LOGGER.info("Hello world from {}!", mod.metadata().name());
+		Announce obj= new Announce();
+		obj.AnnounceServer();
 	}
 }
