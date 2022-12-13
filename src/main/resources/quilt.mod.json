@@ -1,0 +1,40 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "fr.enzomtp",
+		"id": "mc_announce",
+		"version": "${version}",
+		"metadata": {
+			"name": "Mc Server Announcer",
+			"description": "Announce your server to the lan network.",
+			"contributors": {
+				"Your name here": "enzomtp"
+			},
+			"contact": {
+				"homepage": "https://github.com/enzomtpYT",
+				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
+				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+			},
+			"icon": "assets/example_mod/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "fr.enzomtp.mc_announce.McAnnounce"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.17.0-"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=4.0.0-"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.19.2"
+			}
+		]
+	},
+	"mixin": "mc_announce.mixins.json"
+}
