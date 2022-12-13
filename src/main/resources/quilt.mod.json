@@ -15,11 +15,12 @@
 				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
 				"sources": "https://github.com/QuiltMC/quilt-template-mod"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/example_mod/icon.png",
+			"environment": "server"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "fr.enzomtp.mc_announce.McAnnounce"
+			"server": "fr.enzomtp.mc_announce.McAnnounce"
 		},
 		"depends": [
 			{
