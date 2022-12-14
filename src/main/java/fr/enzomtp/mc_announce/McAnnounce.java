@@ -34,6 +34,7 @@ public class McAnnounce implements DedicatedServerModInitializer {
 				String motd = server.getServerMotd();
 				int srvport = server.getServerPort();
 				String msg = "[MOTD]"+motd+"[/MOTD][AD]"+srvport+"[/AD]";
+				msg = msg.replace("\n","   ");
 				byte[] message = msg.getBytes();
 				// Get the internet address of the specified host
 				InetAddress address = InetAddress.getByName(broadcast);
