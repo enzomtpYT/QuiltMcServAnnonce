@@ -1,7 +1,7 @@
 # Mc Server Announcer
 
 [![CurseForge](https://cf.way2muchnoise.eu/full_737017_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/mc-server-announcer)
-[![Modrinth]](https://modrinth.com/mod/midnightcontrols)(https://modrinth.com/mod/mc-server-announcer)
+[![Modrinth]](https://modrinth.com/mod/mc-server-announcer)
 
 Mc server Announcer is a Quilt Mod used to announce your server to the LAN network using the broadcast ip : `255.255.255.255`
   
